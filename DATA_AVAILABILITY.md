@@ -2,12 +2,12 @@
 
 A minimal, executable demonstration dataset is available in this repository at `data/`. It contains 24 representative rendered unit-cell images, the associated centre-frequency labels, and auxiliary inter-bandgap labels. The files are sufficient to verify the released loader, preprocessing, and smoke-training workflow.
 
-The full processed dataset contains 7,608 FEM-labelled geometries, together with the full parameter-to-image mapping, original batch-generation records, and solver outputs. These materials are not included in this public demonstration release because they constitute the complete research database and remain subject to ongoing research-use and authorship controls.
+The full processed dataset contains 7,608 FEM-labelled geometries, together with the full parameter-to-image mapping, original batch-generation records, and solver outputs. These files are maintained by the authors and may be available from the corresponding author upon reasonable request.
 
-For editorial checks, peer review, or a specific non-commercial validation request, the corresponding author may provide an appropriately scoped, controlled-access copy after a written request describing the intended use. Requests must not seek redistribution, bulk model training, or reconstruction of the complete database.
+We would be pleased to provide further information or materials needed for editorial assessment and scientific validation.
 
 Suggested manuscript wording after the repository URL is known:
 
-> Code and a minimal reproducible demonstration dataset are available at [REPOSITORY_URL]. The full FEM-labelled dataset and batch solver outputs are available from the corresponding author upon reasonable request for editorial or non-commercial validation, subject to a data-use agreement.
+> Code and a minimal reproducible demonstration dataset are available at https://github.com/eeee-AI/phononic-crystal-bandgap-inverse-design. The full FEM-labelled dataset and batch solver outputs are available from the corresponding author upon reasonable request.
 
-Replace `[REPOSITORY_URL]` before submission. Confirm this wording against the target journal's data-access policy; if fully open data are mandatory, use an embargoed or controlled-access repository approved by the editor rather than claiming that the full dataset is open here.
+The final wording in the manuscript will follow the data-availability guidance of the target journal.

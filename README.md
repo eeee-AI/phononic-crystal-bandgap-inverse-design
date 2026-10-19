@@ -85,8 +85,8 @@ abaqus job=demo_finite_periodic input=outputs/demo_finite_periodic.inp interacti
 
 ## Data and code access
 
-See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) and [CODE_AVAILABILITY.md](CODE_AVAILABILITY.md) for the exact scope, access route, and citation language. Before submission, replace the repository URL placeholders in those files with the final GitHub URL and ensure that the controlled-access wording is compatible with the target journal's data policy.
+See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) and [CODE_AVAILABILITY.md](CODE_AVAILABILITY.md) for details of the materials provided here. We hope that this package is helpful for readers assessing the workflow, and we welcome reasonable requests for additional materials through the corresponding author.
 
-## Rights and attribution
+## Citation
 
-This repository is released for editorial and scholarly verification only. It is not an open-source software release. No permission is granted to redistribute the released assets, create derivative datasets or models, use them commercially, or present substantially similar work without explicit written permission from the copyright holders and appropriate citation. See [LICENSE.md](LICENSE.md).
+If these materials are useful in your work, please cite the associated manuscript when available.
