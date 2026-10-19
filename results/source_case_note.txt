@@ -1,0 +1,12 @@
+Target: 60 kHz target
+Candidate: 48_al_r01_002
+Bandgap used for package: 49.565-86.338 kHz
+Target frequency: 60.0 kHz
+Files:
+- structure.png/svg/pdf: reconstructed unit-cell geometry from the selected candidate parameters.
+- band_structure.png/svg/pdf: band structure from corrected_eigenfrequencies.csv.
+- inp/: k-point Bloch input decks plus node/element input file when available.
+- dat/: Abaqus .dat outputs for the k-point Bloch calculations.
+- corrected_eigenfrequencies.csv: extracted modal frequencies used for the band-structure figure.
+
+Note: per user instruction, previously generated files with the small known typo are acceptable if present.

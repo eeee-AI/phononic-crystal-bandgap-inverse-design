@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.odb
+*.dat
+*.msg
+*.sta
+*.com
+*.log
+*.lck
