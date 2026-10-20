@@ -72,6 +72,24 @@ Run the generated input deck with Abaqus:
 abaqus job=demo_finite_periodic input=outputs/demo_finite_periodic.inp interactive
 ```
 
+## Joint-objective inverse design
+
+Run the residual-calibrated differential-evolution search for a target centre frequency and relative bandgap:
+
+```bash
+python src/active_learning_inverse_design_joint_objective.py \
+  --target-freq 50000 --min-rbg 0.015 \
+  --physics-boundary-ckpt <physics_boundary_checkpoint.pt> \
+  --rbg-model <relative_bandgap_model.pth> \
+  --skip-inp
+```
+
+Use `--run-abaqus` to generate and evaluate the selected candidates with Abaqus. The round-wise results can be plotted with:
+
+```bash
+python src/plot_joint_objective_results.py
+```
+
 ## Citation
 
 If these materials are useful in your work, please cite the associated manuscript.
